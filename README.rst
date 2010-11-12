@@ -1,7 +1,7 @@
 certik.cz
 =========
 
-Modify these pages and push it back using::
+Modify these pages and push it back into the ``gh-pages`` branch using::
 
     git push origin gh-pages
 
