@@ -1,8 +1,19 @@
 certik.cz
 =========
 
-Modify these pages and push it back into the ``gh-pages`` branch using::
+Modify the pages using::
 
-    git push origin gh-pages
+    git clone git://github.com/certik/certik_cz.git
+    cd certik_cz
 
-and it will appear on http://certik.cz/
+And send a `pull request <http://help.github.com/pull-requests/>`_ against
+the ``certik/certik_cz`` repository.
+
+With Push Access
+----------------
+
+If you have push access, push it back into the ``gh-pages`` branch using::
+
+    git push git@github.com:certik/certik_cz.git gh-pages
+
+and it will appear at http://certik.cz/.
